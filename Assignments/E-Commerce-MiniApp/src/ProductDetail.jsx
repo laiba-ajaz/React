@@ -33,9 +33,9 @@ function ProductDetail() {
             />
           </div>
 
-          {/* Info */}
+          {/* primary */}
           <div className="card-body d-flex flex-column align-items-center text-center p-4">
-            <span className="text-info text-uppercase small fw-semibold mb-1">
+            <span className="text-primary text-uppercase small fw-semibold mb-1">
               {product.category}
             </span>
 
@@ -52,7 +52,7 @@ function ProductDetail() {
             </h4>
 
             <div className="d-flex gap-3 w-100">
-              <button className="btn btn-info text-white fw-medium flex-fill">
+              <button className="btn btn-primary text-white fw-medium flex-fill">
                 Add to Cart
               </button>
               <Link to="/" className="btn btn-secondary text-white fw-medium flex-fill">

@@ -1,6 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import { NavLink  } from "react-router-dom";
 
 export default function Bar() {
+
+  const [searchProduct , setsearchProduct] = useState('');
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top border-bottom">
       <div className="container-fluid px-3 px-lg-5">
@@ -14,8 +18,8 @@ export default function Bar() {
           </div>
           <span className="ms-2 fw-bold fs-4 text-dark">The Paper Mart</span>
         </NavLink>
+         <input type="text" placeholder="Search Product by name" name="searchProduct"  value={searchProduct} onChange={(e)=>{setsearchProduct(e.target.value)}} />
 
-        
 
       </div>
     </nav>

@@ -1,16 +1,42 @@
-# React + Vite
+# 📚 The Paper Mart – E-Commerce Mini App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Paper Mart is a simple React-based E-Commerce Mini App for displaying stationery products. Users can browse products, search for products, and view individual product details.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📦 Product listing using `map()`
+- 🗂️ Dynamic product data using a Product Array
+- 📄 Product detail page
+- 🔗 Dynamic routing using React Router
+- 🧩 Reusable Navbar and Footer components
+- 📱 Responsive design using Bootstrap 5
+- 🖼️ Product images and descriptions
+- 💰 Product price display
+- 👁️ View Product button
+- ↩️ Back navigation from product details
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ React JS
+- 🧭 React Router DOM
+- 🎨 Bootstrap 5
+- 📜 JavaScript
+- 🎨 CSS
+- ⚡ Vite
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── assets/
+├── Data/
+│   └── ProductArray.js
+├── layout/
+│   ├── bar.jsx
+│   └── FooterComp.jsx
+├── App.jsx
+├── App.css
+├── index.css
+├── main.jsx
+├── Product.jsx
+└── ProductDetail.jsx

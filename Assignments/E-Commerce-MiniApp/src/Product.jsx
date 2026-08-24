@@ -31,7 +31,7 @@ function Product() {
                   </span>
                   <Link
                     to={`/ProductDetail/${product.id}`}
-                    className="btn btn-info btn-sm text-white fw-medium"
+                    className="btn btn-primary btn-sm text-white fw-medium"
                   >
                     View Product
                   </Link>
