@@ -22,4 +22,4 @@ When the button is clicked, a random message is selected from the messages array
 
 ## 📌 Project Purpose
 
-This project was created to practice the ** `setTimeout()` function** .
+This project was created to practice the **`setTimeout()` function** .
