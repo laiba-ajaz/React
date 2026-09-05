@@ -1,0 +1,30 @@
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.api-btn {
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+}
+
+.api-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.weather-btn {
+  background-color: #059669;
+}
+
+.weather-btn:hover {
+  background-color: #047857;
+}
